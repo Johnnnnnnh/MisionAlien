@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins y Paddings -->
+    <dimen name="padding_general">24dp</dimen>
+    <dimen name="padding_mediano">15dp</dimen>
+    <dimen name="padding_grande">30dp</dimen>
+    <dimen name="padding_icono_contenedor">20dp</dimen>
+
+    <dimen name="margin_extra_small">5dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="margin_medium_large">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">30dp</dimen>
+    <dimen name="margin_xxlarge">40dp</dimen>
+
+    <!-- Tamaños de Texto -->
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_header">28sp</dimen>
+    <dimen name="text_header_large">30sp</dimen>
+    <dimen name="text_icono_gigante">80sp</dimen>
+</resources>

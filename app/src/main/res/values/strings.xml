@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Semana7</string>
+
+    <!-- Textos: Pantalla de Bienvenida -->
+    <string name="titulo_bienvenida">👽 Misión Marciana: Control</string>
+    <string name="subtitulo_bienvenida">Estación de pruebas de comunicación espacial mediante Intents Explícitos e Implícitos.</string>
+    <string name="icono_marciano_emoji">👽</string>
+    <string name="texto_base_marciana">ESTACIÓN BASE MARTE</string>
+    <string name="btn_iniciar">🚀 INICIAR</string>
+    <string name="btn_abortar">🛸 ABORTAR</string>
+    <string name="creditos_desarrollador">Desarrollada por John Tapia</string>
+
+    <!-- Textos: MainActivity -->
+    <string name="titulo_main">👽 Panel de Control Marciano</string>
+    <string name="subtitulo_main">Prueba de Intents Explícitos e Implícitos</string>
+    <string name="btn_linterna">💡 ENCENDER LINTERNA</string>
+    <string name="btn_linterna_apagar">APAGAR LINTERNA</string>
+    <string name="btn_obtener_ubicacion">📍 OBTENER MI UBICACIÓN</string>
+    <string name="txt_ubicacion_inicial">Ubicación aún no obtenida</string>
+    <string name="btn_segunda_vista">📱 IR A SEGUNDA VISTA (EXPLÍCITO 1)</string>
+    <string name="btn_tercera_vista">⚙️ IR A TERCERA VISTA (EXPLÍCITO 2)</string>
+    <string name="btn_ver_mapa">🗺️ VER MAPA (IMPLÍCITO 1)</string>
+    <string name="btn_llamar">📞 LLAMAR (IMPLÍCITO 3)</string>
+    <string name="btn_abrir_web">🌐 ABRIR PÁGINA WEB (IMPLÍCITO 4)</string>
+    <string name="btn_enviar_correo">✉️ ENVIAR CORREO (IMPLÍCITO 5)</string>
+    <string name="btn_abrir_camara">📸 ABRIR CÁMARA (IMPLÍCITO 6)</string>
+
+    <!-- Textos: SegundaActivity -->
+    <string name="titulo_segunda_vista">🛸 Segunda Vista</string>
+    <string name="subtitulo_segunda_vista">Llegamos utilizando un Intent Explícito</string>
+    <string name="texto_default_segunda_vista">MainActivity → SegundaActivity</string>
+    <string name="btn_volver_panel">⬅️ VOLVER AL PANEL</string>
+
+    <!-- Textos: TerceraActivity -->
+    <string name="titulo_tercera_vista">🛰️ Tercera Vista</string>
+    <string name="subtitulo_tercera_vista">Llegamos utilizando el Intent Explícito 2</string>
+    <string name="texto_default_tercera_vista">MainActivity → TerceraActivity</string>
+    <string name="btn_volver_inicio">⬅️ VOLVER A INICIO</string>
+</resources>

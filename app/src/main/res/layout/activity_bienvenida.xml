@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/fondo_espacio"
+    android:padding="@dimen/padding_general">
+
+    <!-- TÍTULO PRINCIPAL -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_bienvenida"
+        android:textColor="@color/verde_marciano"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+    <!-- SUBTÍTULO -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitulo_bienvenida"
+        android:textColor="@color/texto_gris_espacial"
+        android:textSize="@dimen/text_small"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/margin_large"/>
+
+    <!-- ÁREA CON EL ÍCONO MARCIANO -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/morado_cosmico"
+        android:padding="@dimen/padding_icono_contenedor"
+        android:layout_marginBottom="@dimen/margin_large">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icono_marciano_emoji"
+            android:textSize="@dimen/text_icono_gigante"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_base_marciana"
+            android:textColor="@color/verde_marciano"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_medium"/>
+    </LinearLayout>
+
+    <!-- FILA DE BOTONES DE ACCIÓN -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_xlarge">
+
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_iniciar"
+            android:backgroundTint="@color/verde_marciano"
+            android:textColor="@color/fondo_espacio"
+            android:textStyle="bold"
+            android:layout_marginEnd="@dimen/margin_small"/>
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_abortar"
+            android:backgroundTint="@color/rojo_alerta"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/margin_small"/>
+    </LinearLayout>
+
+    <!-- PIE DE PÁGINA -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creditos_desarrollador"
+        android:textColor="@color/texto_gris_espacial"
+        android:textSize="@dimen/text_small"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+</LinearLayout>
